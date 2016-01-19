@@ -17,19 +17,36 @@ html {
 	box-sizing: inherit;
 }
 
-.bg-cover_photo {
-  height:100vh;
-  width:110%;
-  margin-bottom:2%;
-  text-align:center;
-  background-size: cover;
+body {
+    margin: 0;
+}
+
+.iconset {
+    height: 100vh;
+    display: block;
+    background-image: url(img/bgimage.jpg);
+    background-size: cover;
+    text-align: center;
+    padding-top: 20em;
 }
 
 
 .icon-elephant {
-    font-size: 30em;
+    font-size: 10em;
+    text-align: center;
 }
 
 .icon-yoga {
-    font-size: 30em;
+    font-size: 10em;
+    text-align: center;
+}
+
+.icon-elephant:hover {
+    color: #8facd1;
+    font-size: 12em
+}
+
+.icon-yoga:hover {
+    color: #8facd1;
+    font-size: 12em
 }
